@@ -8,17 +8,11 @@
  */
 int main(void)
 {
-	char char_type;
-	int int_type;
-	long long_type;
-	int64_t longlong_type;
-	float float_type;
-
-	printf("Size of a char: %ld byte(s)\n", sizeof(char_type));
-	printf("Size of an int: %ld byte(s)\n", sizeof(int_type));
-	printf("Size of a long int: %ld byte(s)\n", sizeof(long_type));
-	printf("Size of a long long int: %ld byte(s)\n", sizeof(longlong_type));
-	printf("Size of an float: %ld byte(s)\n", sizeof(float_type));
+	printf("Size of a char: %d byte(s)\n", (int) sizeof(char));
+	printf("Size of an int: %d byte(s)\n", (int) sizeof(int));
+	printf("Size of a long int: %d byte(s)\n", (int) sizeof(long));
+	printf("Size of a long long int: %d byte(s)\n", (int) sizeof(int64_t));
+	printf("Size of a float: %d byte(s)\n", (int) sizeof(float));
 
 	return (0);
 }
