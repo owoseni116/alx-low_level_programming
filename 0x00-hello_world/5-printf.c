@@ -8,7 +8,7 @@
 
 /**
  * main - Main function
- * Return: void
+ * Return: Always returns 0 (Success)
  */
 int main(void)
 {
