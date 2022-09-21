@@ -14,5 +14,5 @@ int main(void)
 	write(1, word, 59);
 
 
-	return (0);
+	return (1);
 }
