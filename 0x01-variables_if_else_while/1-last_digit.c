@@ -17,9 +17,9 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	rem = n % 10;
 
-	if ((rem) < 5)
+	if ((rem) > 5)
 	{
-		printf("Last digit of, ");
+		printf("Last digit of ");
 		printf("%d", n);
 		printf(" is ");
 		printf("%d", rem);
@@ -27,14 +27,14 @@ int main(void)
 	}
 	else if ((rem) == 0)
 	{
-		printf("Last digit of, ");
+		printf("Last digit of ");
 		printf("%d", n);
 		printf(" is ");
 		printf("%d", rem);
 		puts(" and is 0");
 	} else if ((rem) < 6)
 	{
-		printf("Last digit of, ");
+		printf("Last digit of ");
 		printf("%d", n);
 		printf(" is ");
 		printf("%d", rem);
