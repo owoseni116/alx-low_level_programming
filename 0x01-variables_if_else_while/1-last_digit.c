@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * Documentation: 
+ * Documentation:
  *
  * Return: Always 0 (Success)
  */
@@ -23,7 +23,7 @@ int main(void)
 		printf("%d", n);
 		printf(" is ");
 		printf("%d", rem);
-		puts(" and is greater than 5");	
+		puts(" and is greater than 5");
 	}
 	else if ((rem) == 0)
 	{
@@ -38,7 +38,7 @@ int main(void)
 		printf("%d", n);
 		printf(" is ");
 		printf("%d", rem);
-		puts(" and is less than 6  and not 0");	
+		puts(" and is less than 6 and not 0");
 	}
 	return (0);
 }
