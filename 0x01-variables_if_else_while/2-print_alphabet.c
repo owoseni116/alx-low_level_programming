@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char lettr;
+	char lettr = 'a';
 
 	for (; lettr <= 'z'; lettr++)
 	{
