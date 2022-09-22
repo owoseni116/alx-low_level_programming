@@ -4,9 +4,8 @@
  * jack_bauer - all the minutes of the day
  * in jack_bauer
  *
- * Return: Always 0
  */
-int jack_bauer(void)
+void jack_bauer(void)
 {
 	int i, j;
 
