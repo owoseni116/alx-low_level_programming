@@ -5,7 +5,7 @@
  *
  * Documentation: print all combinations of
  * of three digits. NOTE: '01' and '10' are the
- * same combination, and the three digits 
+ * same combination, and the three digits
  * must be different. '000' and '111' not allowed
  *
  * Return: Always 0 (Success)
