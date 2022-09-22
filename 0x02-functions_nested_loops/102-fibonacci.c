@@ -2,7 +2,7 @@
 
 /**
  * main - Main function
- * 
+ *
  * Documentation: Calculate first 100 fibonacci
  * Return: Always 0
  */
@@ -21,7 +21,7 @@ int main(void)
 		}
 		printf("%ld, %ld, ", i, j);
 		i += j;
-		j += i;	
+		j += i;
 	}
 
 	return (0);
