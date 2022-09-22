@@ -3,7 +3,7 @@
 /**
  * print_sign - Print the sign of the input
  *
- * @c: sign of var whose sign is to be printed
+ * @n: sign of var whose sign is to be printed
  *
  * Return: 1 and prints + if n > 0,
  * 0 and prints 0 if n == 0,
