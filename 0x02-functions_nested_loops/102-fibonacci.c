@@ -1,13 +1,5 @@
 #include <stdio.h>
 
-int fibonacci(int n)
-{
-	if (n == 0 || n == 1)
-	{
-		return (1);
-	}
-	return fibonacci(n-1) + fibonacci(n-2);
-}
 /**
  * main - Main function
  * 
@@ -16,13 +8,21 @@ int fibonacci(int n)
  */
 int main(void)
 {
-	int i = 1;
-	for (; i <= 49; i++)
+	long i = 1;
+	long j = 2;
+	int n;
+
+	for (n = 0; n < 25; n++)
 	{
-		printf("%d\n", fibonacci(i));	
+		if (n == 24)
+		{
+			printf("%ld, %ld\n", i, j);
+			break;
+		}
+		printf("%ld, %ld, ", i, j);
+		i += j;
+		j += i;	
 	}
-	i = fibonacci(50);
-	printf("%d", i);
 
 	return (0);
 }
