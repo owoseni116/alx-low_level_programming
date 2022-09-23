@@ -10,22 +10,22 @@ int main(void)
 {
 	long i = 0;
 	long j = 1;
-	long num = i + j; 
+	long num = i + j;
+	long sum = 0;
 	long tmp;
 
 	while (j <= 3524577)
 	{
 		if (num % 2 == 0)
 		{
-			printf("%ld", num);
-			printf(", ");
+			sum += num;
 		}
 		tmp = num;
 		num += j;
 		i = j;
 		j = tmp;
 	}
-	printf("3524578\n");
+	printf("%d\n", sum);
 
 	return (0);
 }
