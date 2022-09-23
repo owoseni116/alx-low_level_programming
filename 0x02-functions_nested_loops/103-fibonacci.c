@@ -25,7 +25,7 @@ int main(void)
 		i = j;
 		j = tmp;
 	}
-	printf("%d\n", sum);
+	printf("%ld\n", sum);
 
 	return (0);
 }
