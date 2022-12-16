@@ -10,7 +10,16 @@ int main(void)
         int i;
 
         i = 98;
-        positive_or_negative(i);
+        char res = positive_or_negative(i);
 
+        if (res < 0)
+        {
+          printf("%c is negative", res);
+        } else if (res > 0)
+        {
+          printf("%c is positive", res);
+        } else {
+          printf("%c is zero", res);
+        }
         return (0);
 }
